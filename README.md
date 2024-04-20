@@ -14,7 +14,7 @@ This Python script uses a graphical user interface (GUI) based on Tkinter to dis
 - logging
 
 ### Features
-- **Real-time Sleep Detection:** Utilizes a pre-trained CNN model to detect drowsiness in real-time using video feed from the webcam.
+- **Real-time Sleep Detection:** Uses the `final_model.h5`, developed in the CNN section of this project, to assess drowsiness in real-time using video feed from the webcam.
 - **Alert System:** Plays a beep sound using pygame when drowsiness is detected.
 - **GUI Feedback:** Displays a "WAKE UP" message on the GUI if the user is detected as sleepy.
 
